@@ -11,4 +11,6 @@ public interface DevUserMapper {
 	 * @throws Exception
 	 */
 	public DevUser getLoginUser(@Param("devCode")String devCode)throws Exception;
+	
+	public void add();
 }
